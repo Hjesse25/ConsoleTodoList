@@ -77,6 +77,7 @@ public class Todo
         }
         else
         {
+            Console.WriteLine();
             Console.WriteLine("Current Tasks");
             for (int i = 0; i < todos.Count; i++)
             {
@@ -96,6 +97,7 @@ public class Todo
         }
         else
         {
+            Console.WriteLine();
             Console.WriteLine("Select a task to remove");
             for (int i = 0; i < todos.Count; i++)
             {
